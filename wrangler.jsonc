@@ -23,7 +23,7 @@
     {
       "binding": "DB",
       "database_name": "cloudmark",
-      "database_id": "8f839713-421d-45e3-8f81-7c593a0c4b2e",
+      "database_id": "f1373741-7478-4881-9d01-ce2a4728c495",
       "migrations_dir": "migrations",
     },
   ],
