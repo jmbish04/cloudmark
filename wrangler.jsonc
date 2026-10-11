@@ -38,4 +38,24 @@
     { "pattern": "cloudmark.site", "custom_domain": true },
     { "pattern": "www.cloudmark.site", "custom_domain": true },
   ],
+  "secrets_store_secrets": [
+    {
+      "binding": "WORKER_API_KEY",
+      "store_id": "8c42fa70938644e0a8a109744467375f",
+      "secret_name": "WORKER_API_KEY",
+    },
+    {
+      "binding": "CLOUDFLARE_ACCOUNT_ID",
+      "store_id": "8c42fa70938644e0a8a109744467375f",
+      "secret_name": "CLOUDFLARE_ACCOUNT_ID",
+    },
+  ],
+  "services": [
+    {
+      "binding": "CORE_GUARDIAN",
+      "service": "core-guardian",
+      "entrypoint": "GuardianRpc",
+      "remote": true,
+    },
+  ],
 }
